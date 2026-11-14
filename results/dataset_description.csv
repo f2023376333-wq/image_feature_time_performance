@@ -1,0 +1,4 @@
+dataset,source,n_classes,original_image_size,original_channels,samples_available,preprocessing,feature_image_size,samples_used,n_train,n_test,split,seed
+Fashion-MNIST,Keras: tensorflow.keras.datasets.fashion_mnist (Zalando),10,28x28,1,60000,grayscale uint8 (cv2 RGB2GRAY if colour); native resolution,28x28,6000,4500,1500,"stratified, test_size=0.25",42
+CIFAR-10,Keras: tensorflow.keras.datasets.cifar10,10,32x32,3,50000,grayscale uint8 (cv2 RGB2GRAY if colour); native resolution,32x32,6000,4500,1500,"stratified, test_size=0.25",42
+SVHN,"SVHN cropped digits, Stanford UFLDL (train_32x32.mat)",10,32x32,3,73257,grayscale uint8 (cv2 RGB2GRAY if colour); native resolution,32x32,6000,4500,1500,"stratified, test_size=0.25",42
